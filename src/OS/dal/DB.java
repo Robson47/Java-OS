@@ -9,6 +9,7 @@ import java.sql.*;
  * @author Robson47
  */
 public class DB {
+    //Método que estabelece a conexão com o banco de dados
     public static Connection connector(){
         java.sql.Connection conn = null;
 
